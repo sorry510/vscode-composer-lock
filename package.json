@@ -9,6 +9,7 @@
 		"content-hash"
 	],
   "version": "0.0.1",
+  "publisher": "sorry510",
   "engines": {
     "vscode": "^1.93.0"
   },
