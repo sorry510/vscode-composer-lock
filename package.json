@@ -10,7 +10,7 @@
 	],
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.51.0"
+    "vscode": "^1.93.0"
   },
   "icon": "images/icon.png",
   "categories": [
@@ -38,10 +38,10 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "pnpm run compile",
+    "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "pretest": "pnpm run compile && pnpm run lint",
+    "pretest": "npm run compile && npm run lint",
     "lint": "eslint src",
     "test": "vscode-test"
   },
