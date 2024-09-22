@@ -13,6 +13,7 @@
     "vscode": "^1.93.0"
   },
   "icon": "images/icon.png",
+  "repository": "https://github.com/sorry510/vscode-composer-lock.git",
   "categories": [
     "Other"
   ],
